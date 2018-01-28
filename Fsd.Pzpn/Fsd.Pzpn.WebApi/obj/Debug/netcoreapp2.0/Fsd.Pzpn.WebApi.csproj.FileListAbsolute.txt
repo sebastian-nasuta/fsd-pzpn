@@ -1,0 +1,16 @@
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.deps.json
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.runtimeconfig.json
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.runtimeconfig.dev.json
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.Crew.Api.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.Crew.Services.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.Ef.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.Crew.Api.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.Crew.Services.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\bin\Debug\netcoreapp2.0\Fsd.Pzpn.Ef.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\obj\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.csproj.CoreCompileInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\obj\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.AssemblyInfoInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\obj\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.AssemblyInfo.cs
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\obj\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.WebApi\obj\Debug\netcoreapp2.0\Fsd.Pzpn.WebApi.pdb

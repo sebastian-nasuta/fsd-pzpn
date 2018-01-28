@@ -1,0 +1,10 @@
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\bin\Debug\netstandard2.0\Fsd.Pzpn.Ef.deps.json
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\bin\Debug\netstandard2.0\Fsd.Pzpn.Ef.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\bin\Debug\netstandard2.0\Fsd.Pzpn.Ef.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\obj\Debug\netstandard2.0\Fsd.Pzpn.Ef.csproj.CoreCompileInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\obj\Debug\netstandard2.0\Fsd.Pzpn.Ef.AssemblyInfoInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\obj\Debug\netstandard2.0\Fsd.Pzpn.Ef.AssemblyInfo.cs
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\obj\Debug\netstandard2.0\Fsd.Pzpn.Ef.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Ef\obj\Debug\netstandard2.0\Fsd.Pzpn.Ef.pdb

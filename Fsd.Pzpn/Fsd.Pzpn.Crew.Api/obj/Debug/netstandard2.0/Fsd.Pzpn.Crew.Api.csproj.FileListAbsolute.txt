@@ -1,0 +1,8 @@
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.deps.json
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.csproj.CoreCompileInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.AssemblyInfoInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.AssemblyInfo.cs
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Api\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.pdb

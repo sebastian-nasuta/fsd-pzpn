@@ -1,0 +1,12 @@
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.deps.json
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\bin\Debug\netstandard2.0\Fsd.Pzpn.Ef.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\bin\Debug\netstandard2.0\Fsd.Pzpn.Crew.Api.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\bin\Debug\netstandard2.0\Fsd.Pzpn.Ef.pdb
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.csproj.CoreCompileInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.AssemblyInfoInputs.cache
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.AssemblyInfo.cs
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.dll
+E:\Projects\fsd-pzpn\Fsd.Pzpn\Fsd.Pzpn.Crew.Services\obj\Debug\netstandard2.0\Fsd.Pzpn.Crew.Services.pdb
