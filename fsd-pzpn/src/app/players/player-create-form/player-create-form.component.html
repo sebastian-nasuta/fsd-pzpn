@@ -1,0 +1,17 @@
+<form [formGroup]="playerForm" novalidate (submit)="onFormSubmit()">
+  <div class="form-group">
+      <label for="firstName">First name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="Enter first name" [formControl]="playerForm.controls['firstName']">
+        <small class="text-danger" *ngIf="playerForm.controls['firstName'].touched && playerForm.controls['firstName'].hasError('required')">First name is required</small>
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Enter last name" [formControl]="playerForm.controls['lastName']">
+        <small class="text-danger" *ngIf="playerForm.controls['lastName'].touched && playerForm.controls['lastName'].hasError('required')">Last name is required</small>        
+    </div>
+    <div class="form-group">
+        <label for="lastName">Number</label>
+        <input type="number" class="form-control" id="number" placeholder="Enter number" [formControl]="playerForm.controls['number']">
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!playerForm.valid">Submit</button>
+</form>

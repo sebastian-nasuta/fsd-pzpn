@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fsd.Pzpn.Crew.Api\Fsd.Pzpn.Crew.Api.csproj" />
+    <ProjectReference Include="..\Fsd.Pzpn.Ef\Fsd.Pzpn.Ef.csproj" />
+  </ItemGroup>
+
+</Project>

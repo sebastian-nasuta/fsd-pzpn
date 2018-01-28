@@ -1,0 +1,33 @@
+<form [formGroup]="query">
+    <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Number</th>
+            <th>
+              First name 
+              <input type="text" [formControl]="query.controls['firstName']">
+            </th>
+            <th>
+              Last name
+              <input type="text" [formControl]="query.controls['lastName']">
+            </th>
+            <th>
+              <button (click)="search()">Refresh</button>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let player of players">
+            <td>{{player.id}}</td>
+            <td>{{player.number}}</td>
+            <td>{{player.firstName}}</td>
+            <td>{{player.lastName}}</td>
+            <th>
+              <button (click)="remove(player)">Remove</button>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+</form>
+
