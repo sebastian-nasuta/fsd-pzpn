@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Player } from './player';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import { element } from 'protractor';
 
 @Injectable()
 export class PlayerService {
@@ -34,11 +35,18 @@ export class PlayerService {
   }
 
   addNewPlayer(player: Player): void {
-    this.players.push(player);
+    this.http.post('api/players', {}, {
+      params: {
+        firstName: player.firstName,
+        lastName: player.lastName,
+        number: player.number
+      }
+    }).subscribe();
+    // this.players.push(player);
   }
 
   removePlayer(player: Player): void {
     const index = this.players.indexOf(player);
-    this.players = this.players.splice(index, 1);
+    this.players.splice(index, 1);
   }
 }

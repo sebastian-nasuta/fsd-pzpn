@@ -14,7 +14,7 @@ namespace Fsd.Pzpn.Crew.Services.Players
         {
             _dbContext = dbContext;
         }
-
+        
         public IEnumerable<Player> GetAll()
         {
             return _dbContext.Players;
@@ -34,6 +34,12 @@ namespace Fsd.Pzpn.Crew.Services.Players
                 query = query.Where(item => item.Number >= numberFromQuery);
 
             return query;
+        }
+
+        public void AddNewPlayer(string firstNameQuery, string lastNameQuery, int numberFromQuery)
+        {
+            System.Console.WriteLine($"fname: {firstNameQuery} lname: {lastNameQuery} number: {numberFromQuery}");
+            //throw new System.NotImplementedException();
         }
     }
 }

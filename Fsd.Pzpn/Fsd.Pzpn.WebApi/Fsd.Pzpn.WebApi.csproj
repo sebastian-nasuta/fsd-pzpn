@@ -20,5 +20,9 @@
     <ProjectReference Include="..\Fsd.Pzpn.Crew.Api\Fsd.Pzpn.Crew.Api.csproj" />
     <ProjectReference Include="..\Fsd.Pzpn.Crew.Services\Fsd.Pzpn.Crew.Services.csproj" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+  </ItemGroup>
 
 </Project>
