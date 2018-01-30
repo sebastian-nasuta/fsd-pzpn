@@ -14,23 +14,23 @@ namespace Fsd.Pzpn.Crew.Services.Players
         {
             _dbContext = dbContext;
         }
-        
+
         public IEnumerable<Player> GetAll()
         {
             return _dbContext.Players;
         }
-        
+
         public IQueryable<Player> GetFiltered(string firstNameQuery = null, string lastNameQuery = null, int? numberFromQuery = null)
         {
-            var query = _dbContext.Players.Select(item=>item);
+            var query = _dbContext.Players.Select(item => item);
 
             if (!string.IsNullOrEmpty(firstNameQuery))
                 query = query.Where(item => item.FirstName.Contains(firstNameQuery));
-            
+
             if (!string.IsNullOrEmpty(lastNameQuery))
                 query = query.Where(item => item.LastName.Contains(lastNameQuery));
 
-            if(numberFromQuery.HasValue)
+            if (numberFromQuery.HasValue)
                 query = query.Where(item => item.Number >= numberFromQuery);
 
             return query;
@@ -38,8 +38,13 @@ namespace Fsd.Pzpn.Crew.Services.Players
 
         public void AddNewPlayer(string firstNameQuery, string lastNameQuery, int numberFromQuery)
         {
-            System.Console.WriteLine($"fname: {firstNameQuery} lname: {lastNameQuery} number: {numberFromQuery}");
-            //throw new System.NotImplementedException();
+            _dbContext.Players.Add(new Player
+            {
+                Number = numberFromQuery,
+                FirstName = firstNameQuery,
+                LastName = lastNameQuery,
+            });
+            _dbContext.SaveChanges();
         }
     }
 }
