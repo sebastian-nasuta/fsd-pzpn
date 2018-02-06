@@ -9,5 +9,6 @@ namespace Fsd.Pzpn.Crew.Api.Services
         IEnumerable<Player> GetAll();
         IQueryable<Player> GetFiltered(string firstNameQuery = null, string lastNameQuery = null, int? numberFromQuery = null);
         void AddNewPlayer(string firstNameQuery, string lastNameQuery, int numberFromQuery);
+        void RemovePlayer(int idFromQuery);
     }
 }

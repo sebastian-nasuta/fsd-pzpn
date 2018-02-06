@@ -3,6 +3,7 @@ using Fsd.Pzpn.Crew.Api.Entities;
 using Fsd.Pzpn.Crew.Api.Services;
 using Fsd.Pzpn.Ef;
 using System.Linq;
+using Fsd.Pzpn.Crew.Api.Projections;
 
 namespace Fsd.Pzpn.Crew.Services.Players
 {
@@ -44,6 +45,13 @@ namespace Fsd.Pzpn.Crew.Services.Players
                 FirstName = firstNameQuery,
                 LastName = lastNameQuery,
             });
+            _dbContext.SaveChanges();
+        }
+
+        public void RemovePlayer(int idFromQuery)
+        {
+            var player = new Player() { Id = idFromQuery };
+            _dbContext.Players.Remove(player);
             _dbContext.SaveChanges();
         }
     }

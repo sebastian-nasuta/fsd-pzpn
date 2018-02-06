@@ -30,5 +30,11 @@ namespace Fsd.Pzpn.WebApi.Controllers
         {
             _playersService.AddNewPlayer(firstName, lastName, number);
         }
+
+        [HttpDelete]
+        public void Delete(int id)
+        {
+            _playersService.RemovePlayer(id);
+        }
     }
 }

@@ -18,8 +18,8 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let player of players">
-            <td>{{player.id}}</td>
+          <tr *ngFor="let player of players; let i=index">
+            <td>{{i+1}}</td>
             <td>{{player.number}}</td>
             <td>{{player.firstName}}</td>
             <td>{{player.lastName}}</td>

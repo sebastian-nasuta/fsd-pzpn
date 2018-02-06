@@ -11,7 +11,7 @@ export class FooterComponent implements OnInit {
 
   ngOnInit() {
     this.year = new Date().getFullYear();
-    this.author = "Sebastian Nasuta";
+    this.author = "Sebastian Tomasz Nasuta";
   }
 
 }

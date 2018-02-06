@@ -29,9 +29,7 @@ export class PlayerService {
   }
 
   private clear() {
-    while (this.players.length > 0) {
-      this.players.pop();
-    }
+    this.players.length = 0;
   }
 
   addNewPlayer(player: Player): void {
@@ -42,11 +40,15 @@ export class PlayerService {
         number: player.number
       }
     }).subscribe();
-    // this.players.push(player);
+    this.loadPlayers();
   }
 
   removePlayer(player: Player): void {
-    const index = this.players.indexOf(player);
-    this.players.splice(index, 1);
+    this.http.delete('api/players', {
+      params: {
+        id: player.id
+      }
+    }).subscribe();
+    this.loadPlayers();
   }
 }
