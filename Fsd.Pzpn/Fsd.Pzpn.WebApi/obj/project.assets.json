@@ -12596,10 +12596,13 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.WebApi\\Fsd.Pzpn.WebApi.csproj",
-      "projectName": "Fsd.Pzpn.WebApi",
-      "projectPath": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.WebApi\\Fsd.Pzpn.WebApi.csproj",
+      "projectUniqueName": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.WebApi\\Fsd.Pzpn.Webapi.csproj",
+      "projectName": "Fsd.Pzpn.Webapi",
+      "projectPath": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.WebApi\\Fsd.Pzpn.Webapi.csproj",
       "packagesPath": "C:\\Users\\S\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.WebApi\\obj\\",
       "projectStyle": "PackageReference",
@@ -12620,11 +12623,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Crew.Api\\Fsd.Pzpn.Crew.Api.csproj": {
-              "projectPath": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Crew.Api\\Fsd.Pzpn.Crew.Api.csproj"
-            },
             "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Crew.Services\\Fsd.Pzpn.Crew.Services.csproj": {
               "projectPath": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Crew.Services\\Fsd.Pzpn.Crew.Services.csproj"
+            },
+            "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Crew.Api\\Fsd.Pzpn.Crew.Api.csproj": {
+              "projectPath": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Crew.Api\\Fsd.Pzpn.Crew.Api.csproj"
             }
           }
         }
@@ -12638,14 +12641,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.5"
           }
         },
         "imports": [

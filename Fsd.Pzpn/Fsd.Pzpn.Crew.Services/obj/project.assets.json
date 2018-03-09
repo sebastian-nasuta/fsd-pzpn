@@ -2541,6 +2541,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Crew.Services\\Fsd.Pzpn.Crew.Services.csproj",
       "projectName": "Fsd.Pzpn.Crew.Services",
@@ -2586,7 +2589,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "2.0.1",
             "autoReferenced": true
           }
         },

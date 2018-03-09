@@ -2522,6 +2522,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "E:\\Projects\\fsd-pzpn\\Fsd.Pzpn\\Fsd.Pzpn.Ef\\Fsd.Pzpn.Ef.csproj",
       "projectName": "Fsd.Pzpn.Ef",
@@ -2563,17 +2566,17 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[2.0.1, )"
-          },
-          "Microsoft.EntityFrameworkCore.Relational": {
-            "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "2.0.1"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "2.0.1",
             "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
+            "target": "Package",
+            "version": "2.0.1"
           }
         },
         "imports": [
